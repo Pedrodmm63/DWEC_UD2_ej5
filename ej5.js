@@ -1,3 +1,5 @@
+const size = 50
+
 function rellenoManual() {
     var arrayGrande = [];
 
@@ -10,7 +12,7 @@ function rellenoManual() {
 }
 
 function rellenoAutomatico(){
-    let arrayGrande = new Array(50);
+    let arrayGrande = new Array(size);
 
     arrayGrande.fill(0)
     
