@@ -1,9 +1,9 @@
 const size = 50
 
 function rellenoManual() {
-    var arrayGrande = [];
+    var arrayGrande = new Array(size);
 
-    for(let i= 0; i <50; i++) {
+    for(let i= 0; i <arrayGrande.length; i++) {
 
         arrayGrande[i] = 0;
     }
